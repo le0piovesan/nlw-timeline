@@ -5,21 +5,21 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "lint": "eslint src --ext .ts --fix"
+    "lint": "eslint src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@rocketseat/eslint-config": "^2.2.2",
+    "@rocketseat/eslint-config": "^3.0.12",
     "@types/node": "^20.17.0",
-    "eslint": "^8.57.1",
+    "eslint": "^9.8.0",
     "prisma": "^4.16.2",
-    "tsx": "^3.14.0",
+    "tsx": "^4.21.0",
     "typescript": "^5.7.3"
   },
   "dependencies": {
     "@prisma/client": "^4.16.2",
-    "fastify": "^4.28.1"
+    "fastify": "^5.8.4"
   }
 }
