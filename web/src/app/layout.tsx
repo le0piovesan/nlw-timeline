@@ -1,22 +1,22 @@
-import { ReactNode } from "react";
-import "./globals.css";
+import { ReactNode } from 'react'
+import './globals.css'
 import {
   Roboto_Flex as Roboto,
   Bai_Jamjuree as BaiJamjuree,
-} from "next/font/google";
+} from 'next/font/google'
 
-const roboto = Roboto({ subsets: ["latin"], variable: "--font-roboto" });
+const roboto = Roboto({ subsets: ['latin'], variable: '--font-roboto' })
 const baiJamJuree = BaiJamjuree({
-  subsets: ["latin"],
-  weight: "700",
-  variable: "--font-bai-jumjuree",
-});
+  subsets: ['latin'],
+  weight: '700',
+  variable: '--font-bai-jumjuree',
+})
 
 export const metadata = {
-  title: "NLW Spacetime",
+  title: 'NLW Spacetime',
   description:
-    "Uma cápsula do tempo construída com React, Next.js, TailwindCSS e TypeScript",
-};
+    'Uma cápsula do tempo construída com React, Next.js, TailwindCSS e TypeScript',
+}
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
@@ -27,5 +27,5 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {children}
       </body>
     </html>
-  );
+  )
 }
